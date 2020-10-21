@@ -8,7 +8,7 @@ exports.getBootcamps = (req, res, next) => {
 
 // @desc   Get single bootcamps
 // @route  GET /api/v1/bootcamps/:id
-//@access  Public
+//@access  Public 
 
 exports.getBootcamp = (req, res, next) => {
   res
