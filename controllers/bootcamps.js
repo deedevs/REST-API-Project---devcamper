@@ -55,7 +55,7 @@ exports.createBootcamp = async (req, res, next) => {
       success: true,
       data: bootcamp,
     });
-  } catch (error) {
+  } catch (err) {
     next(err);
   }
 };
@@ -81,7 +81,7 @@ exports.updateBootcamp = async (req, res, next) => {
       success: true,
       data: bootcamp,
     });
-  } catch (error) {
+  } catch (err) {
     next(err);
   }
 };
@@ -104,7 +104,7 @@ exports.deleteBootcamp = async (req, res, next) => {
       success: true,
       data: {},
     });
-  } catch (error) {
+  } catch (err) {
     next(err);
   }
 };
